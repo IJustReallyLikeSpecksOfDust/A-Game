@@ -1,0 +1,28 @@
+re: this;
+
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      Console.WriteLine("Hello World!");    
+    }
+  }
+}
+
+c# uses these {}
+namespaces are for organisation
+classes are realllllly complicated. but like... they're groups of types of objects? i learn more about this later
+main makes any code inside it's {} be executed. also complex
+console is a class inside system. it has a WriteLine method used for... take a wild guess
+if you omit 'using system' you can instead do 'System.Console.WriteLine'
+
+also i havent installed c# correctly bcz i can't bcz of permissions on the computer
+
+Console.WriteLine() is basically c#'s print(). it works with maths like print.
+
+there's also Console.Write which is the same but it doesnt make a new line
+// is c#'s comments. for multiline comments start with /* and end with */
