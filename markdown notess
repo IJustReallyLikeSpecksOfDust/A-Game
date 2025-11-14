@@ -1,3 +1,4 @@
+## most basic syntax
 re: this;
 
 using System;
@@ -26,3 +27,37 @@ Console.WriteLine() is basically c#'s print(). it works with maths like print.
 
 there's also Console.Write which is the same but it doesnt make a new line
 // is c#'s comments. for multiline comments start with /* and end with */
+
+
+
+## variable stuff
+int - stores integers (whole numbers), without decimals, such as 123 or -123
+long - stores integers (whole numbers), without decimals, such as 123 or -123. can use far higher numbers than int (int is capped at ~ 2.1b)
+double - stores floating point numbers, with decimals, such as 19.99 or -19.99
+char - stores single characters, such as 'a' or 'B'. Char values are surrounded by single quotes
+string - stores text, such as "Hello World". String values are surrounded by double quotes
+bool - stores values with two states: true or false
+
+add 'const' infront of a variable to make it impossible to edit
+to use regular text and a variable in a write() use +
+  same goes for two variables
+
+To declare more than one variable of the same type, use a comma-separated list:
+  int x = 5, y = 6, z = 50;
+
+also variable names are called identifiers
+
+Casting is how you assign one variable to another type of variable.
+  int cheeseamount = 4;
+  double cheeseeaten = cheeseamount;
+  // there's also explicit casting (this example is implicit)
+
+For conversions use:
+Convert.ToBoolean(), Convert.ToDouble(), Convert.ToString(), Convert.ToInt32(), Convert.ToInt64()
+
+Console.ReadLine() is for user input
+  string input = Console.Readline();
+readline's values are strings. use conversions if needed.
+
+to modify assigned integers, use things such as +=
+imma just link a full list of em   https://www.w3schools.com/cs/cs_operators_assignment.php
