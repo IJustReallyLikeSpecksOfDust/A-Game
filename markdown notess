@@ -61,3 +61,50 @@ readline's values are strings. use conversions if needed.
 
 to modify assigned integers, use things such as +=
 imma just link a full list of em   https://www.w3schools.com/cs/cs_operators_assignment.php
+
+
+## loop stuff
+
+while loops are real simple. just this:
+  while (condition) 
+  {
+    // code block to be executed
+  }
+
+also there's this thing. do while
+  do 
+  {
+    // code block to be executed
+  }
+  while (condition);
+
+seemingly just a regular while loop with different order.
+
+for loops are a bit more complicated.
+
+statement one just gets executed. statement 2 checks the truth. statement 3 modifies something.
+
+for (statement 1; statement 2; statement 3) 
+{
+  // code block to be executed
+}
+
+foreach is for data usually. arrays. it's just 'for each thing in other thing, execute'
+
+break exits a loop. continue skips one instance of the loop. they work in while loops also.
+
+
+## other things
+methods are like functions but they aren't. i think i can just treat them as functions though. heres the how to
+  class Program
+  {
+    static void methodname() 
+    {
+      // code to be executed
+    }
+  }
+
+they're definetely more complicated than this but this is the basic whatever. link for parameters cuz i didnt make notes https://www.w3schools.com/cs/cs_method_parameters.php
+
+
+i'm going to have to use files to save later so here's work with files. https://www.w3schools.com/cs/cs_files.php
